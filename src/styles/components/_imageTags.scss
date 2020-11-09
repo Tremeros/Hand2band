@@ -1,0 +1,22 @@
+.image-tags {
+    display: flex;
+    justify-content: flex-start;
+
+    &-element {
+        background: $lightgray-color;
+        color: $black-color;
+        font-size: 1rem;
+        margin: 0.2rem;
+        border-radius: 5px;
+
+        p {
+            padding: 0.2rem;
+        }
+    }
+}
+
+@media (max-width: 769px) {
+   .image-tags {
+       justify-content: center;
+   }
+  }

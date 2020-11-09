@@ -1,0 +1,16 @@
+@import 'abstract/variables';
+
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+
+@import 'components/imagesList';
+@import 'components/imageTags';
+@import 'components/modal';
+@import 'components/modalImageHeader';
+@import 'components/searchBar';
+
+@import 'layout/container';
+@import 'layout/gallery';
+@import 'layout/main';

@@ -1,0 +1,36 @@
+.images-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 2px 10px;
+    grid-auto-rows: 10px;
+   
+
+    div {
+       cursor: pointer;
+        img {
+            width: 15rem;
+        }
+    
+        p {
+            color: $black-color;           
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    .images-list {
+      font-size: 8px;
+      text-align: center;
+      grid-template-columns: 1fr;
+      
+    }
+  }
+
+  @media (max-width: 769px) {
+    .images-list {
+      font-size: 8px;
+      text-align: center;
+      grid-template-columns: 1fr 1fr;
+      
+    }
+  }
